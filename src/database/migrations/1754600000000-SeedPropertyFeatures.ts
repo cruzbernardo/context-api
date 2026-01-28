@@ -78,7 +78,7 @@ export class SeedPropertyFeatures1754600000000 implements MigrationInterface {
           NOW(),
           NOW()
         )
-      ON CONFLICT (property_id) DO NOTHING;
+      ON CONFLICT (id) DO NOTHING;
     `);
   }
 
