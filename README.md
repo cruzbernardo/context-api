@@ -13,7 +13,7 @@ A property management platform with AI-powered features built with NestJS, TypeO
 
 - **Framework**: NestJS 10
 - **Database**: PostgreSQL 15 with TypeORM
-- **AI Integration**: Groq API (Llama 3.3 70B)
+- **AI Integration**: Groq API (Llama 4 Scout 17B)
 - **Authentication**: JWT with bcrypt
 - **Documentation**: Swagger/OpenAPI
 - **Containerization**: Docker & Docker Compose
@@ -290,7 +290,7 @@ src/
 | **Event-Driven Processing** | Notes trigger async AI processing via EventEmitter2, keeping API responses fast while processing happens in background |
 | **Soft Deletes** | All entities use `deletedAt` column to preserve data integrity and allow recovery |
 | **Feature Aggregation** | Multiple notes per property are aggregated using majority voting (booleans) and averaging (numbers) to handle conflicting information |
-| **Groq API (Llama 3.3 70B)** | Fast inference with structured JSON output support for reliable feature extraction |
+| **Groq API (Llama 4 Scout 17B)** | Fast inference with structured JSON output support for reliable feature extraction |
 | **AES-256-CBC Encryption** | Passwords encrypted with symmetric encryption for secure storage |
 
 ### Assumptions
