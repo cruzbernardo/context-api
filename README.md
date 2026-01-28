@@ -258,6 +258,7 @@ docker compose exec api npm run build
 | `JWT_SECRET` | JWT signing key | (required) |
 | `JWT_EXPIRATION_TIME` | Token expiration | 3h |
 | `GROQ_API_KEY` | Groq API key | (required for AI) |
+| `CORS_ORIGIN` | Allowed CORS origins (comma-separated) | `http://localhost:5173,http://localhost:3000` |
 
 ## Project Structure
 
